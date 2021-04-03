@@ -14,6 +14,7 @@ body {
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-position: top;
+  text-align: center;
 }
 
 .hero {
@@ -29,9 +30,23 @@ body {
   margin-bottom: 5rem;
 }
 
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .heading-1 {
-  font-size: 3rem;
-  width: 70%;
+  font-size: 3.2rem;
+  width: 100%;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  color: #4c545d;
+}
+
+.heading-2 {
+  font-size: 3.2rem;
+  width: 100%;
   line-height: 1.2;
   margin-bottom: 2rem;
   color: #4c545d;
@@ -40,7 +55,7 @@ body {
 .paragraph {
   color: #9fabb2;
   font-size: 1.6rem;
-  width: 85%;
+  width: 92%;
   margin-bottom: 5rem;
 }
 
@@ -63,6 +78,11 @@ body {
 .btn-mac {
   background-color: #6173ff;
   border-bottom: 4px solid #4d5edf;
+}
+
+img {
+  margin-bottom: 5rem;
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
