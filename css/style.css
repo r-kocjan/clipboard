@@ -10,6 +10,22 @@ html {
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
+  padding: 3rem 2rem;
+  background-image: url("../images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.hero {
+  margin-top: 10rem;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20rem;
+  align-items: center;
+}
+.hero img {
+  width: 10rem;
+  margin-bottom: 5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
