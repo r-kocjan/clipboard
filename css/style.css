@@ -39,8 +39,27 @@ body {
 .paragraph {
   color: #9fabb2;
   font-size: 1.6rem;
-  width: 95%;
+  width: 85%;
+  margin-bottom: 5rem;
+}
+
+.btn {
+  padding: 1.5rem 4rem;
+  font-family: inherit;
+  font-size: 1.8rem;
+  font-weight: 600;
+  border: none;
+  width: 90%;
+  border-radius: 100px;
+  color: #fff;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+}
+.btn-ios {
   margin-bottom: 2rem;
+  background-color: #26baa4;
+}
+.btn-mac {
+  background-color: #6173ff;
 }
 
 /*# sourceMappingURL=style.css.map */
