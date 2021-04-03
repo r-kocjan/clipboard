@@ -30,3 +30,10 @@ img{
 .icon{
     width: 5.5rem;
 }
+.logos{
+    width: 14rem;
+
+    &:not(:last-child){
+        margin-bottom: 5rem;
+    }
+}

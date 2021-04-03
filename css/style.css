@@ -99,6 +99,13 @@ img {
   width: 5.5rem;
 }
 
+.logos {
+  width: 14rem;
+}
+.logos:not(:last-child) {
+  margin-bottom: 5rem;
+}
+
 .mb-medium {
   margin-bottom: 10rem;
 }
