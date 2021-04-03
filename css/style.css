@@ -93,8 +93,6 @@ body {
 }
 .footer .menu_link {
   color: #4c545d;
-}
-.footer .menu_link:link, .footer .menu_link:active {
   text-decoration: none;
   font-size: 2.5rem;
 }
@@ -113,6 +111,30 @@ body {
   color: #4c545d;
 }
 
+@media (min-width: 1200px) {
+  .footer {
+    padding: 4rem 20rem 4rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  .footer img {
+    margin-bottom: 0;
+  }
+  .footer .social {
+    padding: 0;
+  }
+  .footer .menu {
+    align-items: center;
+    display: flex;
+    gap: 3rem;
+  }
+  .footer .menu_link {
+    font-size: 2rem;
+    color: #9fabb2;
+  }
+}
 .heading-1 {
   font-size: 3.2rem;
   width: 100%;

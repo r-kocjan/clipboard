@@ -78,12 +78,14 @@
     
     img{
         width: 6rem;
+        
     }
+
+
 
     .menu{
         list-style: none;
         
-
         &_item{
             padding: 1rem;
           
@@ -91,13 +93,10 @@
 
         &_link{
             color: $dark-gray-blue;
-        }
-        &_link:link,
-        &_link:active{
             text-decoration: none;
             font-size: 2.5rem;
-           
         }
+        
     }
 
 
@@ -118,3 +117,35 @@
     }
 
 }
+
+
+@media(min-width: 1200px){
+    .footer{
+        padding: 4rem 20rem 4rem 20rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+
+       
+        img{
+           margin-bottom: 0;
+        }
+        .social{
+            padding: 0;
+        }
+        .menu{
+            align-items: center;
+            display: flex;
+            gap: 3rem;
+            
+            &_link{
+                font-size: 2rem;
+                color: $gray-blue;
+            }
+        }
+    }
+    
+    
+}
+
