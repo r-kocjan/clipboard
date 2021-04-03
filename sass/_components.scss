@@ -59,4 +59,10 @@ img{
     #devices{
         width: 50%;
     }
+    .logos{
+
+        &:last-of-type{
+            margin-bottom: 5rem;
+        }
+    }
 }
