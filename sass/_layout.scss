@@ -4,6 +4,7 @@
     margin-top: 10rem;
     display: flex;
     flex-direction: column;
+    padding: 3rem 2rem;
     padding-bottom: 15rem;
     align-items: center;
     text-align: center;
@@ -17,6 +18,7 @@
 // PRESENTATION SECTION
 
 .presentation{
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,8 +27,59 @@
 // OPTIONS SECTION
 
 .options{
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 15rem;
+}
+
+
+// FOOTER
+
+.footer{
+    background-color: #eee;
+    padding: 4rem 2rem;
+    
+    img{
+        width: 6rem;
+    }
+
+    .menu{
+        list-style: none;
+        
+
+        &_item{
+            padding: 1rem;
+          
+        }
+
+        &_link{
+            color: $dark-gray-blue;
+        }
+        &_link:link,
+        &_link:active{
+            text-decoration: none;
+            font-size: 2.5rem;
+           
+        }
+    }
+
+
+    .social{
+        padding-top: 4rem;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 3.5rem;
+
+        a{
+            text-decoration: none;
+        }
+        i{
+            font-size: 3rem;
+            color: $dark-gray-blue;
+        }
+    }
+
 }

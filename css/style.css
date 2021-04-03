@@ -10,7 +10,6 @@ html {
 
 body {
   font-family: "Bai Jamjuree", sans-serif;
-  padding: 3rem 2rem;
   background-image: url("../images/bg-header-desktop.png");
   background-repeat: no-repeat;
   background-position: top;
@@ -21,6 +20,7 @@ body {
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
+  padding: 3rem 2rem;
   padding-bottom: 15rem;
   align-items: center;
   text-align: center;
@@ -31,16 +31,53 @@ body {
 }
 
 .presentation {
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .options {
+  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 15rem;
+}
+
+.footer {
+  background-color: #eee;
+  padding: 4rem 2rem;
+}
+.footer img {
+  width: 6rem;
+}
+.footer .menu {
+  list-style: none;
+}
+.footer .menu_item {
+  padding: 1rem;
+}
+.footer .menu_link {
+  color: #4c545d;
+}
+.footer .menu_link:link, .footer .menu_link:active {
+  text-decoration: none;
+  font-size: 2.5rem;
+}
+.footer .social {
+  padding-top: 4rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+.footer .social a {
+  text-decoration: none;
+}
+.footer .social i {
+  font-size: 3rem;
+  color: #4c545d;
 }
 
 .heading-1 {
