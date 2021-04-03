@@ -10,9 +10,16 @@ html{
 body{
     font-family: $basic-font;
     // padding: 3rem 2rem;
-    background-image: url("../images/bg-header-desktop.png");
+    background-image: url("../images/bg-header-mobile.png");
     background-repeat: no-repeat;
     background-position: top;
     text-align: center;
+}
+
+@media (min-width:1200px){
+    body{
+    background-image: url("../images/bg-header-desktop.png");
+    background-size: 100%;
+}
 }
 
