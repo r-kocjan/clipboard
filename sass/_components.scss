@@ -36,4 +36,7 @@ img{
     &:not(:last-child){
         margin-bottom: 5rem;
     }
+    &:last-of-type{
+        margin-bottom: 15rem;
+    }
 }

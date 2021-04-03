@@ -40,6 +40,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 15rem;
 }
 
 .heading-1 {
@@ -105,9 +106,16 @@ img {
 .logos:not(:last-child) {
   margin-bottom: 5rem;
 }
+.logos:last-of-type {
+  margin-bottom: 15rem;
+}
 
 .mb-medium {
   margin-bottom: 10rem;
+}
+
+.mb-big {
+  margin-bottom: 20rem;
 }
 
 /*# sourceMappingURL=style.css.map */
