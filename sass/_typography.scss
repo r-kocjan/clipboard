@@ -9,7 +9,6 @@
 .heading-2{
     font-size: 3rem;
     width: 100%;
-    
     line-height: 1.2;
     margin-bottom: 2rem;
     color: $dark-gray-blue;
@@ -25,8 +24,11 @@
     .heading-1{
         font-size: 4rem;
     }
+    .heading-2{
+        width: auto;
+    }
     .paragraph{
         font-size: 2rem;
-        width: 35%;
+        width: 50%;
     }
 }

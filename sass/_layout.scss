@@ -24,7 +24,40 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+
+@media (min-width:1200px){
+    .presentation{
+        padding: 3rem 0;
+        
+    }
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+       
+        width: 70%;
+        gap: 20rem; 
+        .img-box{
+            flex: 1 0 55%;
+            img{
+                width: 90%;
+            }
+        }
+        .info{
+            text-align: left;
+            flex: 1 0 45%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+        }
+    }
+}
+
+
+
 
 // OPTIONS SECTION
 

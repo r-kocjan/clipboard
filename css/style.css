@@ -43,6 +43,33 @@ body {
   align-items: center;
 }
 
+@media (min-width: 1200px) {
+  .presentation {
+    padding: 3rem 0;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 70%;
+    gap: 20rem;
+  }
+  .container .img-box {
+    flex: 1 0 55%;
+  }
+  .container .img-box img {
+    width: 90%;
+  }
+  .container .info {
+    text-align: left;
+    flex: 1 0 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
 .options {
   padding: 3rem 2rem;
   display: flex;
@@ -114,9 +141,13 @@ body {
     font-size: 4rem;
   }
 
+  .heading-2 {
+    width: auto;
+  }
+
   .paragraph {
     font-size: 2rem;
-    width: 35%;
+    width: 50%;
   }
 }
 .btn {
@@ -174,6 +205,10 @@ img {
   .btn-ios {
     margin: 0;
   }
+
+  #devices {
+    width: 50%;
+  }
 }
 .mb-medium {
   margin-bottom: 10rem;
@@ -181,6 +216,19 @@ img {
 
 .mb-big {
   margin-bottom: 20rem;
+}
+
+@media (min-width: 1200px) {
+  .flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
