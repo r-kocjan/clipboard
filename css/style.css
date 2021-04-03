@@ -20,7 +20,7 @@ body {
   margin-top: 10rem;
   display: flex;
   flex-direction: column;
-  padding-bottom: 20rem;
+  padding-bottom: 15rem;
   align-items: center;
   text-align: center;
 }
@@ -31,9 +31,10 @@ body {
 
 .heading-1 {
   font-size: 3rem;
-  width: 90%;
+  width: 70%;
   line-height: 1.2;
   margin-bottom: 2rem;
+  color: #4c545d;
 }
 
 .paragraph {
@@ -52,14 +53,16 @@ body {
   width: 90%;
   border-radius: 100px;
   color: #fff;
-  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.2);
 }
 .btn-ios {
   margin-bottom: 2rem;
   background-color: #26baa4;
+  border-bottom: 4px solid #269685;
 }
 .btn-mac {
   background-color: #6173ff;
+  border-bottom: 4px solid #4d5edf;
 }
 
 /*# sourceMappingURL=style.css.map */
